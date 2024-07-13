@@ -99,7 +99,7 @@ class AudioProcessorThread(QThread):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Audio WPM Analyzer")
+        self.setWindowTitle("Speaking Speed")
         self.setGeometry(100, 100, 600, 400)
 
         self.setup_dark_theme()
